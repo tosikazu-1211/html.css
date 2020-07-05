@@ -75,26 +75,19 @@ footer {
 }
 
 @media screen and (max-width:768px) {
-	.step-box {
-		display: inline-block;
-		float: none;
-		width: 90%;
-		margin: 0　auto;
-	}
-
-	header {
-		width: 100%;
-	}
-
 	main {
-		width: 100%;
+		margin: 50px auto;
+		width: 90%;
+		text-align: center;
 	}
 
-	.step-box:nth-child(2n) {
-		margin: 20px 0;
+	.step-box {
+		float: none;
+		width: 100%;
+		margin-bottom: 20px;
 	}
 
-	footer {
-		width: 100%;
+	.step-box:last-child {
+		margin-bottom: 0px;
 	}
 }
